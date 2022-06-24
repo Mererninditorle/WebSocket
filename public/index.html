@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
+        <title>Project</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header_hd">ToDo List</div>
+            <div class="header_stat">
+                <div style="display: inline">Status:</div>
+                <span id="status">offline</span>
+            </div>
+        </div>
+
+        <div class='main'>
+            <form id="form">
+                <label for="message">Input Task:</label>
+                <input type="text" id="input">
+            </form>
+
+            <div id="messages"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

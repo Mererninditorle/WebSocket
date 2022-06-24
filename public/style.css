@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header_hd {
+    font-size: 45px;
+    margin-left: 2vw;
+}
+
+.header_stat {
+    font-size: 20px;
+    margin-left: 2vw;
+}
+
+.task_card {
+    height: 5vh;
+    width: 40vw;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
